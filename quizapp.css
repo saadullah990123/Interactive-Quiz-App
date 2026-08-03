@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quiz-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.one {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.quizheading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #eee;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.options button:hover {
+  background: #dcdcdc;
+}
+
+#nextBtn {
+  background-color: #008CBA; /* Changed to a visible color (lightcyan with white text was invisible) */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+#nextBtn:hover {
+  background: #0056b3;
+}
+
+.show {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .quiz-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .one {
+    font-size: 2.2rem;
+  }
+
+  .two {
+    font-size: 0.95rem;
+  }
+
+  .quizheading {
+    font-size: 17px;
+  }
+
+  .options button {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  #nextBtn {
+    height: 45px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .quiz-container {
+    padding: 15px 20px;
+  }
+  
+  .quizheading {
+    font-size: 18px;
+  }
+
+  .one {
+    font-size: 2.5rem;
+  }
+
+  #nextBtn {
+    height: 45px;
+    font-size: 1rem;
+  }
+}
