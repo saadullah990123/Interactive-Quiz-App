@@ -14,7 +14,8 @@ A lightweight, fully responsive, and interactive Quiz Application built using **
 * **CSS3** – Styling and Responsive Design
 * **JavaScript (ES6)** – DOM manipulation and application logic
 * 
-![Uploading image.png…]()
+<img width="745" height="902" alt="image" src="https://github.com/user-attachments/assets/7b89bb47-a2f2-44fe-8d62-716ffca94d40" />
+
 
 ## 📁 Project Structure
 ```text
